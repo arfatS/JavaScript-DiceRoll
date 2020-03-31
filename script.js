@@ -17,6 +17,8 @@ function rotation(){
 
 function roll() {
   count++;
+  turn.disabled = true;
+
   var no = document.querySelector('#no'+count+'');
   no.style.background = "green";
 
@@ -49,6 +51,7 @@ function computer() {
     if (count >= 5) {
       reset()
     }
+    turn.disabled = false;
     turn.textContent = "Roll Dice";
     dice.style.background = '#0daf7e';
   },1500);
