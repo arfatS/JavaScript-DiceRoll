@@ -97,6 +97,7 @@ button{
   font-size: 18px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   box-shadow: 5px 5px 10px gray;
+  outline: none;
 }
 
 button:active{
